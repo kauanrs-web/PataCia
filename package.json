@@ -1,0 +1,14 @@
+{
+  "name": "pata-e-cia-petshop",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Site estático de petshop, pronto para Vercel.",
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/preview.mjs",
+    "standalone": "node scripts/standalone.mjs"
+  }
+}
